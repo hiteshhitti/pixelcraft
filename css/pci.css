@@ -1217,3 +1217,19 @@ strong {
   color: #e74c3c;
   cursor: pointer;
 }
+
+.project-frame {
+  transition: transform .3s ease;
+}
+.project-frame:hover {
+  transform: scale(1.03);
+}
+.transition-opacity {
+  transition: opacity .3s ease;
+}
+.project-frame:hover .transition-opacity {
+  opacity: 1;
+}
+.bg-opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
